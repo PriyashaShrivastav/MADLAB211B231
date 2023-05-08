@@ -1,0 +1,25 @@
+interface Testable{
+    void display();
+    
+}
+class Test implements Testable{
+    public void display(){
+        System.out.println("Hey");
+    }
+}
+abstract  class AbsTest implements Testable{
+    public void show(){
+        System.out.println("Good Morning");
+    }
+}
+class Abstest extends AbsTest{
+    
+}
+
+public class Main{
+    public static void main(String[] args){
+        Abstest v = new Abstest();
+        v.show();
+    }
+        
+}
