@@ -1,0 +1,18 @@
+class One{
+     int x;
+     One(int x){
+         this.x=x;
+         }
+ } 
+ class Two extends One{
+    }
+     
+ 
+ public class Main{
+     public static void main(String[] args){
+         One x1 = new One(5);
+         Two x2 = new Two();
+         System.out.println(x1.One());
+         
+     }
+ }

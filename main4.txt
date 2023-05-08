@@ -1,0 +1,34 @@
+class Mother {
+    
+    public int x =10;
+    public void show(){
+        System.out.println(x);
+    }
+}
+
+class Child extends Mother {
+    public static void show(){
+        System.out.println
+    }
+}
+
+class Application {
+ public static void show(){
+ Mother m= new Mother ( );
+ System.out.println("CLASS MOTHER");
+ m.show( ); 
+ Child ch=new Child ( ); 
+ System.out.println("CLASS CHILD");
+ ch.show ( ); 
+ Mother m1 = new Child();
+ m1.show();
+ }
+}
+ 
+  public class Main{
+      public static void main(String [] args){
+          Application a= new Application();
+          a.show();
+      }
+      
+  }
