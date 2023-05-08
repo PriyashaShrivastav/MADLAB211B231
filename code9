@@ -1,0 +1,43 @@
+abstract class Bharatvanshi{
+    abstract void fight();
+    abstract void obey();
+    abstract void kind();
+}
+class Pandava extends Bharatvanshi{
+
+    void fight(){
+        System.out.println("Pandavas were skilled fighters");
+    }
+    void obey(){
+        System.out.println("Pandavas were obedient");  
+    }
+    void kind(){
+        System.out.println("Pandavas were kind-hearted");
+    }
+}
+class Kaurav extends Bharatvanshi{
+   
+    void fight(){
+        System.out.println("Kauravas were profilent fighters");
+    }
+    void obey(){
+        System.out.println("Kauravas were notorious for disobeying");
+    }
+    void kind(){
+        System.out.println("Kauravas were cruel");
+    }
+}
+class Vikarn extends Kaurav{
+    
+    void obey(){
+        System.out.println("Vikarn was an expection among Kauravas, he was a noble man.");
+    }
+    void kind(){
+        System.out.println("Vikarn was humble and kind unlike his brothers");
+    }
+}
+public class Main{
+    public static void main(String[] args){
+        System.out.println("All bharatvanshis had been fighters.");
+    }
+}
