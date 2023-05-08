@@ -1,0 +1,19 @@
+class Mother{
+     public void show(){
+         System.out.println("Hello World");
+     }
+ }
+ class Child extends Mother{
+     public void show(){
+         System.out.println("Hello JUET");
+     }
+ }
+ public class Main{
+     public static void main(String[] args){
+         Mother m = new Mother();
+         m.show();
+         
+         Child c = new Child();
+         c.show();
+     }
+ }
